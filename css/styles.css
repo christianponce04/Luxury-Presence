@@ -766,7 +766,7 @@ section {
 .my-carousel-progress {
     position: absolute;
     bottom: -2rem;
-    width: 20%;
+    width: calc(100% - 200px);
     display: block;
     left: 10rem;
     background: var(--light);
